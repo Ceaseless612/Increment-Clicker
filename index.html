@@ -38,9 +38,6 @@ function increment() {
     lvlNum += 1;
     z.innerHTML = lvlNum;
     effect.play();
-    var advance = document.getElementById("advancement1");
-    advance.style.display = "block";
-    setTimeout(advance.style.display = "none", 1000);
   }
 }
 </script>
@@ -49,9 +46,6 @@ function increment() {
 	<p id="clicklabel">Money: <a id="clickcount">0</a></p>
 	<button onclick="increment()">Increment</button>
     <p id="level">Level: <a id="levelNumber">1</a></p>
-    <div id="advancement1" style="background-color:yellow;padding:30px 90px;display:none;">
-   		<h2>Advancement 1 Complete: $1000!</h2>
-    </div>
 </center>
 
 </head>
